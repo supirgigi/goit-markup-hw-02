@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #212121;
+    --brand-color: #2196F3;
+    /* Ниже цвет фона для контраста с белым текстом, как на макете, не знаю, нужно ли на этом этапе */
+    --background-color: #2F303A;
+    --text-color: #757575;    
+    --alternate-text-color: #fff;
+}
+
+.logo {
+    color: #000;
+    font-size: 26px;
+    line-height: 100%;
+    font-weight: 700;
+}
+
+.logo-item {
+    color: var(--brand-color);
+}
+
+.navigation-link {
+    color: var(--background-color);
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 500;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--brand-color);
+}
+
+.contact-link {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 500;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--brand-color);
+}
+
+.hero {
+    background-color: var(--background-color);
+}
+
+.mainpage-heading1 {
+    font-size: 44px;
+    line-height: 116%;
+    font-weight: 900;
+    color: var(--alternate-text-color);
+}
+
+.order-button {
+    background-color: var(--brand-color);
+    color: var(--alternate-text-color);
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.mainpage-heading2 {
+    font-size: 36px;
+    line-height: 100%;
+}
+
+.feature-heading {
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 500;
+}
+
+.feature-text {
+    color: var(--text-color);;
+    font-size: 14px;
+    line-height: 146%;
+}
+
+.team-heading {
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 500;
+}
+
+.team-text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.filters-button {
+    font-size: 16px;
+    line-height: 139%;
+    font-weight: 500;
+}
+
+.order-button,
+.filters-button {
+    cursor: pointer;
+}
+
+.filters-button:hover, .filters-button:focus {
+    background-color: var(--brand-color);
+    color: var(--alternate-text-color);
+}
+
+.project-heading {
+    font-size: 18px;
+    line-height: 171%;
+}
+
+.project-text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.footer {
+    background-color: var(--background-color);
+}
+
+.address-place {
+    color: var(--alternate-text-color);
+    font-size: 14px;
+    line-height: 146%;
+}
+
+.address-link {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 146%;
+}
+
+.address-link:hover, .address-link:focus {
+    color: var(--brand-color);    
+}
