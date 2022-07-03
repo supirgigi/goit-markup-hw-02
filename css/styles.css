@@ -20,7 +20,7 @@ body {
 }
 
 .navigation-link {
-    color: var(--background-color);
+    color: #212121;
     font-size: 14px;
     line-height: 100%;
     font-weight: 500;
